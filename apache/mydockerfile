@@ -1,0 +1,2 @@
+FROM neemarawat/myapache_code
+RUN echo "<h1>modified</h1>" > /var/www/html/index.html
